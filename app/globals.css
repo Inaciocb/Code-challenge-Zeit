@@ -1,27 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* globals.css */
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import 'tailwindcss/base';
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+/* Configurações de cores personalizadas */
+@layer utilities {
+  .text-brown-700 {
+    --text-color: #594330;
+    color: var(--text-color);
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .bg-yellow-200 {
+    --bg-color: #f7de8b;
+    background-color: var(--bg-color);
+  }
 }
