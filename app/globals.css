@@ -17,4 +17,49 @@
     --bg-color: #f7de8b;
     background-color: var(--bg-color);
   }
+  .progress-bar-bg {
+    --progress-bar-bg-color: #d2be76;
+    background-color: var(--progress-bar-bg-color);
+  }
+}
+
+/* Estilos das barras de progresso */
+.progress-bar-c {
+  width: 0;
+  background-color: var(--text-color);
+}
+
+.progress-bar-java {
+  width: 0;
+  background-color: var(--text-color);
+}
+
+.progress-bar-cpp {
+  width: 0;
+  background-color: var(--text-color);
+}
+
+.progress-bar-python {
+  width: 0;
+  background-color: var(--text-color);
+}
+
+.progress-bar-frontend {
+  width: 0;
+  background-color: var(--text-color);
+}
+
+.progress-bar-git {
+  width: 0;
+  background-color: var(--text-color);
+}
+
+.progress-bar-linux {
+  width: 0;
+  background-color: var(--text-color);
+}
+
+.progress-bar-windows {
+  width: 0;
+  background-color: var(--text-color);
 }
