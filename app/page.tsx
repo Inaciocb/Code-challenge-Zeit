@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
 const Curriculo: React.FC = () => {
-  
   
   return (
     <div className="bg-yellow-200 min-h-screen text-brown-700">
