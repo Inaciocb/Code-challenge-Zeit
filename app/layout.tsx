@@ -1,11 +1,15 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Lato } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const lato = Lato({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export const metadata = {
-  title: 'Curriculo Inacio',
-  description: 'Curriculo Inacio',
+  title: 'Currículo',
+  description: 'Currículo de Inácio Buemo',
 }
 
 export default function RootLayout({
@@ -15,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={lato.className}>{children}</body>
     </html>
   )
 }
