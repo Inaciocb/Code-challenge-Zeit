@@ -206,7 +206,7 @@ const Curriculo: React.FC = () => {
 
               <div className="mt-8">
                 <h2 className="text-2xl font-bold">
-                  Competências (autoavaliação)
+                  Competências
                 </h2>
                 <div className="my-4">
                   <h3 className="font-bold">Programação na linguagem C</h3>
