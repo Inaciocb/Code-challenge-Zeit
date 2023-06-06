@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Curriculo: React.FC = () => {
   return (
@@ -7,13 +7,20 @@ const Curriculo: React.FC = () => {
         <div className="w-3/4">
           <div className="flex items-center">
             <div className="w-24 h-24 rounded-full overflow-hidden">
-              <img src="./foto.jpeg" alt="Foto de Perfil" className="w-full h-full object-cover" />
+              <img
+                src="./foto.jpeg"
+                alt="Foto de Perfil"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="ml-4">
               <div className="flex items-center">
                 <h1 className="text-2xl font-bold">Inácio Camargo Buemo</h1>
               </div>
-              <p className="text-brown-700">Projetos em desenvolvimento de software com a finalidade de obtenção de experiência na área.</p>
+              <p className="text-brown-700">
+                Projetos em desenvolvimento de software com a finalidade de
+                obtenção de experiência na área.
+              </p>
             </div>
           </div>
 
@@ -23,7 +30,7 @@ const Curriculo: React.FC = () => {
                 aria-hidden="true"
                 stroke="currentColor"
                 strokeWidth="1.5"
-                fill = "none"
+                fill="none"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6 mr-2"
@@ -38,7 +45,8 @@ const Curriculo: React.FC = () => {
             </h2>
 
             <p className="text-brown-700">
-              Sou um aprendiz em desenvolvimento de software, interessado em projetos coletivos de Software e/ou Hardware.
+              Sou um aprendiz em desenvolvimento de software, interessado em
+              projetos coletivos de Software e/ou Hardware.
             </p>
           </div>
 
@@ -64,7 +72,8 @@ const Curriculo: React.FC = () => {
             <p className="text-brown-700">
               Ensino Médio, Riachuelo
               <br />
-              Estudante de graduação superior no curso Bacharelado em Sistemas de Informação, UFSM - segundo semestre.
+              Estudante de graduação superior no curso Bacharelado em Sistemas
+              de Informação, UFSM - segundo semestre.
             </p>
           </div>
 
@@ -90,11 +99,14 @@ const Curriculo: React.FC = () => {
             <p className="text-brown-700">
               Curso de Inglês, CCAA, 2011 - 2018
               <br />
-              Atividade Complementar de Graduação (ACG) - Oficina de GIT, PET-SI, UFSM
+              Atividade Complementar de Graduação (ACG) - Oficina de GIT,
+              PET-SI, UFSM
               <br />
-              Atividade Complementar de Graduação (ACG) - Oficina de banco de dados SQL, PET-SI, UFSM
+              Atividade Complementar de Graduação (ACG) - Oficina de banco de
+              dados SQL, PET-SI, UFSM
               <br />
-              Atividade Complementar de Graduação (ACG) - Oficina de revisão da linguagem C, PET-SI, UFSM
+              Atividade Complementar de Graduação (ACG) - Oficina de revisão da
+              linguagem C, PET-SI, UFSM
             </p>
           </div>
 
@@ -124,7 +136,7 @@ const Curriculo: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="w-1/3 ml-8">
+        <div className="w-1/4 ml-8">
           <div className="my-8">
             <h2 className="text-2xl font-bold flex items-center">
               <svg
@@ -145,24 +157,138 @@ const Curriculo: React.FC = () => {
               Dados pessoais
             </h2>
             <ul className="text-brown-700">
+              <li>Santa Maria - RS</li>
+              <li>Nacionalidade: Brasileiro</li>
               <li>
-                Santa Maria - RS
+                <a
+                  href="https://wa.me/55991246983"
+                  className="text-blue-500 hover:underline"
+                >
+                  Telefone: (55) 991246983
+                </a>
               </li>
               <li>
-                Nacionalidade: Brasileiro
-              </li>
-              <li>
-                <a href="https://wa.me/55991246983" className="text-blue-500 hover:underline">Telefone: (55) 991246983</a>
-              </li>
-              <li>
-                <a href="mailto:inaciocbuemo@gmail.com" className="text-blue-500 hover:underline">E-mail: inaciocbuemo@gmail.com</a>
+                <a
+                  href="mailto:inaciocbuemo@gmail.com"
+                  className="text-blue-500 hover:underline"
+                >
+                  E-mail: inaciocbuemo@gmail.com
+                </a>
               </li>
             </ul>
+          </div>
+
+          <div className="w-2/8">
+            <div className="sticky top-8">
+              <ul className="space-y-2">
+                <li>
+                  <a href="https://github.com/Inaciocb" className="btn-link">
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/in%C3%A1cio-camargo-buemo-4a0b05254/"
+                    className="btn-link"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.codewars.com/users/Inaciocb"
+                    className="btn-link"
+                  >
+                    CodeWars
+                  </a>
+                </li>
+              </ul>
+
+              <div className="mt-8">
+                <h2 className="text-2xl font-bold">
+                  Competências (autoavaliação)
+                </h2>
+                <div className="my-4">
+                  <h3 className="font-bold">Programação na linguagem C</h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-c"
+                      style={{ width: "60%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="my-4">
+                  <h3 className="font-bold">Programação na linguagem Java</h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-java"
+                      style={{ width: "30%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="my-4">
+                  <h3 className="font-bold">Programação na linguagem C++</h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-cpp"
+                      style={{ width: "60%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="my-4">
+                  <h3 className="font-bold">Programação na linguagem Python</h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-python"
+                      style={{ width: "60%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="my-4">
+                  <h3 className="font-bold">Conhecimentos front-end</h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-frontend"
+                      style={{ width: "35%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="my-4">
+                  <h3 className="font-bold">Uso da tecnologia GIT</h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-git"
+                      style={{ width: "63%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="my-4">
+                  <h3 className="font-bold">
+                    Uso de sistemas baseados no kernel Linux
+                  </h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-linux"
+                      style={{ width: "60%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="my-4">
+                  <h3 className="font-bold">Uso de sistemas Windows</h3>
+                  <div className="h-2 progress-bar-bg rounded">
+                    <div
+                      className="h-full bg-brown-700 progress-bar-windows"
+                      style={{ width: "70%" }}
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Curriculo;
