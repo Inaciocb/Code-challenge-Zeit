@@ -4,7 +4,7 @@ const Curriculo: React.FC = () => {
   return (
     <div className="bg-yellow-200 min-h-screen text-brown-700">
       <div className="container mx-auto px-4 py-8 flex">
-        <div className="w-3/4">
+        <div class="teste">
           <div className="flex items-center">
             <div className="w-24 h-24 rounded-full overflow-hidden">
               <img

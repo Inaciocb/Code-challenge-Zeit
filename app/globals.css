@@ -23,43 +23,55 @@
   }
 }
 
+.teste{
+  padding-right: 70px;
+}
+
 /* Estilos das barras de progresso */
 .progress-bar-c {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
 
 .progress-bar-java {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
 
 .progress-bar-cpp {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
 
 .progress-bar-python {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
 
 .progress-bar-frontend {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
 
 .progress-bar-git {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
 
 .progress-bar-linux {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
 
 .progress-bar-windows {
   width: 0;
   background-color: var(--text-color);
+  border-radius: 10px;
 }
