@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import MostrarDados from './api/rest';
+
+
 const Curriculo: React.FC = () => {
-  
+ 
   return (
+    <div>
+      <MostrarDados />
     <div className="bg-yellow-200 min-h-screen text-brown-700">
       <div className="container mx-auto px-4 py-8 flex">
         <div class="teste">
@@ -188,7 +193,6 @@ const Curriculo: React.FC = () => {
                   </a>
                 </li>
               </ul>
-
               <div className="mt-8">
                 <h2 className="text-2xl font-bold">
                   Competências
@@ -270,6 +274,7 @@ const Curriculo: React.FC = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
