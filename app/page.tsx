@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import MostrarDados from '../pages/api/rest.tsx';
+import { SessionProvider } from "next-auth/react"
 
 
 const Curriculo: React.FC = () => {
