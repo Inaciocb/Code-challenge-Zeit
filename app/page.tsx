@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import MostrarDados from './api/rest';
+import MostrarDados from '../pages/api/rest.tsx';
 
 
 const Curriculo: React.FC = () => {
